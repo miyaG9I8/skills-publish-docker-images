@@ -42,5 +42,4 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: ${{ steps.meta.outputs.tags }}
-            ghcr.io/miyag9i8/skills-publish-docker-images/stackoverflown:main
-            ghcr.io/miyag9i8/skills-publish-docker-images/stackoverflown:${{ github.sha }}
+            
